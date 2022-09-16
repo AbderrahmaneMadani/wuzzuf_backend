@@ -31,7 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-
+    'jobposter.apps.JobposterConfig',
+    'freelancer.apps.FreelancerConfig',
+    'useradmin.apps.UseradminConfig',
     'wuzzuf.apps.WuzzufConfig',
     'django.contrib.admin',
     'django.contrib.auth',
